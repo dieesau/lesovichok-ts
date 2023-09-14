@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "GNEZDO";
+  src: url("../public/fonts/GNEZDO.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "HARDBOR";
+  src: url("../public/fonts/HARDBOR.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "MOLODO";
+  src: url("../public/fonts/MOLODO-FONT.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "Teremok";
+  src: url("../public/fonts/TDTeremok.otf") format("opentype");
+}
+
+html,
+body {
+  align-items: center;
+  overflow-x: hidden;
+  font-family: "Gilroy", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hidden {
+  opacity: 0;
+}
