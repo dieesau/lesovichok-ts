@@ -7,7 +7,7 @@ import MapComponent from "@/../../../lesovichok2.0/lesovichok2/pages/Map";
 const MainContent = ({ activeContent }) => {
   return (
     <main className="main-content">
-      {activeContent === "О НАС" && <About />}
+      {/*{activeContent === "О НАС" && <About />}*/}
       {activeContent === "НОВОСТИ" && <News />}
       {activeContent === "КАРТА" && <MapComponent />}
       {activeContent === "БИЛЕТЫ" && (

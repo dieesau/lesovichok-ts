@@ -13,13 +13,14 @@ const App = () => {
     };
 
     const handleLogoClick = () => {
-        console.log('logo click')
         setActiveContent("empty");
     };
 
     return (
         <div>
             <Header onLogoClick={handleLogoClick} />
+            <Sidebar onButtonClick={handleButtonClick} />
+            <MainContent activeContent={activeContent} />
         </div>
     );
 };

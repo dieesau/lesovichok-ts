@@ -1,20 +1,17 @@
 .sidebar {
-    margin-top: 0;
+
     font-family: "GNEZDO", sans-serif;
-    font-size: 3rem;
     height: 100vh;
-    float: left;
+    width: 250px;
     flex-direction: column;
     display: flex;
-    border-right: 5px solid black;
+    border-right: 2px solid black;
 }
 
 .sidebar-button {
-    margin-left: 0;
-    background-color: white;
+    font-size: 3rem;
     color: black;
-    border: none;
-    padding: 1.5rem 1rem;
+    padding: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -23,8 +20,8 @@
     background-color: purple;
 }
 
-@media (max-width: 768px) {
-    .sidebar {
-        display: none;
-    }
-}
+//@media (max-width: 768px) {
+//    .sidebar {
+//        display: none;
+//    }
+//}
