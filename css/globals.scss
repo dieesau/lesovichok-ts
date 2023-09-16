@@ -20,6 +20,8 @@
 
 html,
 body {
+  margin-left: 10%;
+  margin-right: 10%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -36,4 +38,12 @@ a {
 
 .hidden {
   opacity: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  html,
+  body {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }

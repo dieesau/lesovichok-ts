@@ -24,7 +24,7 @@ const News = () => {
                                 <p>🤙🏻 stay tuned</p>
                                 <br />
                                 <p>💜 все ссылки тут <a className="link" href="https://taplink.cc/lesovikfest">taplink.cc/lesovikfest</a></p>
-                                <p>💚poster by <a className="link" href="./News">@namastesooraj</a> (instagram)</p>
+                                <p>💚poster by <a href="./News">@namastesooraj</a> (instagram)</p>
                             </>
                         }
                         />

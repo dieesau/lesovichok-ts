@@ -9,15 +9,14 @@ const Sidebar = ({ onButtonClick }) => {
     };
 
     return (
-        <aside>
-            {/*<button*/}
+        <div className="sidebar">
+        {/*<button*/}
             {/*    className="sidebar-button"*/}
             {/*    onClick={toggleSidebar}*/}
             {/*>*/}
             {/*    Меню*/}
             {/*</button>*/}
 
-            <div className="sidebar">
                 <button className="sidebar-button" onClick={() => onButtonClick("О НАС")}>
                     О НАС
                 </button>
@@ -34,7 +33,6 @@ const Sidebar = ({ onButtonClick }) => {
                     КОНТАКТЫ
                 </button>
             </div>
-        </aside>
     );
 };
 

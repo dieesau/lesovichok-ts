@@ -1,15 +1,15 @@
 .sidebar {
-
+    float: left;
+    width: 200px;
+    display: flex;
     font-family: "GNEZDO", sans-serif;
     height: 100vh;
-    width: 250px;
     flex-direction: column;
-    display: flex;
     border-right: 2px solid black;
 }
 
 .sidebar-button {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
     padding: 1rem;
     cursor: pointer;
@@ -20,8 +20,8 @@
     background-color: purple;
 }
 
-//@media (max-width: 768px) {
-//    .sidebar {
-//        display: none;
-//    }
-//}
+@media (max-width: 1366px) {
+    .sidebar {
+        display: none;
+    }
+}

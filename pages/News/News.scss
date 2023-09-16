@@ -1,5 +1,12 @@
 .news {
-    padding-top: 1rem;
+    a:hover {
+        background-color: purple;
+    }
+}
+
+.news__image {
+    width: 250px;
+    height: 200px;
 }
 
 .news-header {
@@ -12,8 +19,4 @@
 
 .news-block {
     border-bottom: 1px solid grey;
-}
-
-.link:hover {
-    background-color: purple;
 }

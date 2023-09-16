@@ -4,8 +4,8 @@ import Slider from "@/components/Slider";
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
-      <div className="about-description">
+    <div className="about">
+      <div className="about-desc">
         <p>
           Фестиваль &ldquo;Лесовик&rdquo; - это уже второй фестиваль авторской
           психоделии, который пройдет 25-27 августа под Серпуховом, точные
