@@ -23,12 +23,12 @@ const Sidebar = ({ onButtonClick }) => {
                 <button className="sidebar-button" onClick={() => onButtonClick("НОВОСТИ")}>
                     НОВОСТИ
                 </button>
-                <button className="sidebar-button" onClick={() => onButtonClick("КАРТА")}>
-                    КАРТА
-                </button>
-                <button className="sidebar-button" onClick={() => onButtonClick("БИЛЕТЫ")}>
-                    БИЛЕТЫ
-                </button>
+                {/*<button className="sidebar-button" onClick={() => onButtonClick("КАРТА")}>*/}
+                {/*    КАРТА*/}
+                {/*</button>*/}
+                {/*<button className="sidebar-button" onClick={() => onButtonClick("БИЛЕТЫ")}>*/}
+                {/*    БИЛЕТЫ*/}
+                {/*</button>*/}
                 <button className="sidebar-button" onClick={() => onButtonClick("КОНТАКТЫ")}>
                     КОНТАКТЫ
                 </button>

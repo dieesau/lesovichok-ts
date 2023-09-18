@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const NewsItem = ({ imageUrl, headline, content, date }) => {
     return (
-        <div className="news-block mb-6 flex flex-wrap">
+        <div className="news__block">
             <Image src={imageUrl} className="news__image" alt={headline} />
             <a href="./NewsItem.tsx">
                 <div

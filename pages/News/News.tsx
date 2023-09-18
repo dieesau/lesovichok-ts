@@ -7,9 +7,8 @@ import ni1 from '@/public/newsImg/3OgonxSWnLo.jpg'
 const News = () => {
     return (
         <div className="news">
-            <div className="container mx-auto md:px-6">
-                <section className="mb-32 text-center md:text-left">
-                    <h2 className="news-header mb-12 text-center text-3xl font-bold">НОВОСТИ</h2>
+                <section>
+                    <h2 className="news__header">НОВОСТИ</h2>
                     <NewsItem
                         imageUrl={ni1}
                         headline="Новая Афиша!"
@@ -47,7 +46,6 @@ const News = () => {
                         }
                     />
                 </section>
-            </div>
         </div>
     );
 };

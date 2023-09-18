@@ -5,11 +5,22 @@
 }
 
 .news__image {
-    width: 250px;
-    height: 200px;
+    margin: 15px;
+    border-radius: 1.5rem;
+    width: 25%;
+    transition: opacity 0.3s ease;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    max-width: 200px;
+    max-height: 300px;
 }
 
-.news-header {
+.news__image:hover {
+    opacity: 0.8; /* Здесь вы можете установить желаемую прозрачность */
+}
+
+.news__header {
+    text-align: center;
     font-size: 2rem;
 }
 
@@ -17,6 +28,8 @@
     font-size: 1.5rem;
 }
 
-.news-block {
+.news__block {
+    margin-bottom: 10px;
+    display: flex;
     border-bottom: 1px solid grey;
 }
