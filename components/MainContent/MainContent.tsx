@@ -1,10 +1,10 @@
 import React from "react";
 import "./MainContent.scss";
-import About from "@/../../../lesovichok2.0/lesovichok2/pages/About";
-import News from "@/../../../lesovichok2.0/lesovichok2/pages/News";
-import MapComponent from "@/../../../lesovichok2.0/lesovichok2/pages/Map";
+import About from "../../pages/About"
+import News from "../../pages/News";
+import MapComponent from "../../pages/Map";
 
-const MainContent = ({ activeContent }) => {
+const MainContent = ({ activeContent }:any) => {
   return (
     <main className="main-content">
       {activeContent === "О НАС" && <About />}

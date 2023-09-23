@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sidebar.scss";
 
-const Sidebar = ({ onButtonClick }) => {
+const Sidebar = ({ onButtonClick }: any) => {
 
     return (
         <div className="sidebar">

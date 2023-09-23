@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.scss"
 
-const Navbar = ({ onButtonClick }) => {
+const Navbar = ({ onButtonClick }:any) => {
 
     return (
         <div className="navbar">

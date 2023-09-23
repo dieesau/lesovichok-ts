@@ -1,15 +1,15 @@
 "use client";
 
 import React, { useState } from "react";
-import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
-import MainContent from "../components/MainContent";
+import Header from "@/components/Header";
+import Sidebar from "@/components/Sidebar";
+import MainContent from "@/components/MainContent";
 import Navbar from "@/components/Navbar";
 
 const App = () => {
     const [activeContent, setActiveContent] = useState("");
 
-    const handleButtonClick = (content) => {
+    const handleButtonClick = (content:string) => {
         setActiveContent(content);
     };
 
