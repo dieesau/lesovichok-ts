@@ -1,22 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
 import "./Sidebar.scss";
 
 const Sidebar = ({ onButtonClick }) => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleSidebar = () => {
-        setIsOpen(!isOpen);
-    };
 
     return (
         <div className="sidebar">
-        {/*<button*/}
-            {/*    className="sidebar-button"*/}
-            {/*    onClick={toggleSidebar}*/}
-            {/*>*/}
-            {/*    Меню*/}
-            {/*</button>*/}
-
                 <button className="sidebar-button" onClick={() => onButtonClick("О НАС")}>
                     О НАС
                 </button>
