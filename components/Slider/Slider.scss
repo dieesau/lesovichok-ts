@@ -2,11 +2,6 @@
     width: 100%;
     height: 100%;
 }
-.--swiper-navigation-color {
-    color: #fff},
-
-.--swiper-pagination-color {
-    color: #fff},
 
 .big-img {
     height: 400px;
@@ -54,6 +49,8 @@
 .mySwiper2 {
     height: 80%;
     width: 100%;
+    --swiper-navigation-color: #fff;
+    --swiper-pagination-color: #fff;
 }
 
 .mySwiper {
