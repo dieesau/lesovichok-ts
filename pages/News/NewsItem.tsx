@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const NewsItem = ({ imageUrl, headline, content, date }) => {
+const NewsItem = ({ imageUrl, headline, content, date }: any) => {
     return (
         <div className="news__block">
             <Image src={imageUrl} className="news__image" alt={headline} />

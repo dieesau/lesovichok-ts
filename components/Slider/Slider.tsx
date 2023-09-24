@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
+import { SwiperOptions } from 'swiper/types';
 
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -35,7 +36,7 @@ const images = [
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 export default function Slider() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
 
   return (
     <>
