@@ -3,6 +3,7 @@ import "./MainContent.scss";
 import About from "../../pages/About"
 import News from "../../pages/News";
 import MapComponent from "../../pages/Map";
+import Contacts from "../../pages/Contacts";
 
 const MainContent = ({ activeContent }:any) => {
   return (
@@ -10,20 +11,12 @@ const MainContent = ({ activeContent }:any) => {
       {activeContent === "О НАС" && <About />}
       {activeContent === "НОВОСТИ" && <News />}
       {activeContent === "КАРТА" && <MapComponent />}
-      {activeContent === "БИЛЕТЫ" && (
-        <div>
-          БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ
-          БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ
-          БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ БИЛЕТЫ
-        </div>
-      )}
-      {activeContent === "КОНТАКТЫ" && (
-        <div>
-          КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ
-          КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ
-          КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ
-        </div>
-      )}
+      {/*{activeContent === "БИЛЕТЫ" && (*/}
+      {/*  <div>*/}
+      {/*    БИЛЕТЫ*/}
+      {/*  </div>*/}
+      {/*)}*/}
+      {activeContent === "КОНТАКТЫ" && <Contacts />}
     </main>
   );
 };

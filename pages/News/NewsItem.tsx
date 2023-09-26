@@ -5,13 +5,8 @@ const NewsItem = ({ imageUrl, headline, content, date }: any) => {
     return (
         <div className="news__block">
             <Image src={imageUrl} className="news__image" alt={headline} />
-            <a href="./NewsItem.tsx">
-                <div
-                    className="">
-                </div>
-            </a>
             <div className="">
-                <h5 className="">{headline}</h5>
+                <h5 className="news__header">{headline}</h5>
                 <p className="">
                     {content}
                 </p>

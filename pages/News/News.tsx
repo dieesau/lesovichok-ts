@@ -8,7 +8,7 @@ const News = () => {
     return (
         <div className="news">
                 <section>
-                    <h2 className="news__header">НОВОСТИ</h2>
+                    {/*<h2 className="news__header">НОВОСТИ</h2>*/}
                     <NewsItem
                         imageUrl={ni1}
                         headline="Новая Афиша!"
@@ -23,7 +23,7 @@ const News = () => {
                                 <p>🤙🏻 stay tuned</p>
                                 <br />
                                 <p>💜 все ссылки тут <a className="link" href="https://taplink.cc/lesovikfest">taplink.cc/lesovikfest</a></p>
-                                <p>💚poster by <a href="./News">@namastesooraj</a> (instagram)</p>
+                                <p>💚poster by <a href="https://www.instagram.com/namastery/">@namastesooraj</a> (instagram)</p>
                             </>
                         }
                         />
